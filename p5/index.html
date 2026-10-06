@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page Tailwind CSS</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+<header class="border-b bg-white">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="#" class="text-xl font-bold text-blue-600">
+            WebDasar
+        </a>
+
+        <nav class="flex gap-6">
+            <a href="#" class="text-slate-600 hover:text-blue-600">Beranda</a>
+            <a href="#fitur" class="text-slate-600 hover:text-blue-600">Fitur</a>
+            <a href="#kontak" class="text-slate-600 hover:text-blue-600">Kontak</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="mx-auto grid max-w-6xl gap-10 px-6 py-20 lg:grid-cols-2 lg:items-center">
+
+    <div>
+        <p class="mb-3 font-bold uppercase tracking-widest text-blue-600">
+            Pemrograman Web
+        </p>
+
+        <h1 class="text-5xl font-bold leading-tight">
+            Bangun Website Modern dan Responsif
+        </h1>
+
+        <p class="mt-6 text-lg leading-8 text-slate-600">
+            Pelajari HTML, CSS, JavaScript dan teknologi web modern
+            melalui praktikum sederhana.
+        </p>
+
+        <a
+            href="#fitur"
+            class="mt-8 inline-block rounded-xl bg-blue-600 px-6 py-3 font-bold text-white hover:bg-blue-700">
+            Mulai Belajar
+        </a>
+    </div>
+
+    <div class="rounded-3xl bg-slate-900 p-6 shadow-xl">
+        <div class="mb-5 h-5 w-24 rounded-full bg-yellow-400"></div>
+
+        <div class="h-32 rounded-2xl bg-gradient-to-r from-blue-600 to-green-500"></div>
+
+        <div class="mt-5 grid grid-cols-3 gap-3">
+            <div class="h-16 rounded-xl bg-blue-200"></div>
+            <div class="h-16 rounded-xl bg-green-200"></div>
+            <div class="h-16 rounded-xl bg-yellow-200"></div>
+        </div>
+    </div>
+
+</section>
+
+<section id="fitur" class="mx-auto max-w-6xl px-6 py-16">
+
+    <div class="grid gap-6 md:grid-cols-3">
+
+        <article class="rounded-2xl bg-white p-6 shadow">
+            <h2 class="text-2xl font-bold">HTML</h2>
+            <p class="mt-3 text-slate-600">
+                Digunakan untuk membangun struktur halaman web.
+            </p>
+        </article>
+
+        <article class="rounded-2xl bg-white p-6 shadow">
+            <h2 class="text-2xl font-bold">CSS</h2>
+            <p class="mt-3 text-slate-600">
+                Digunakan untuk mengatur tampilan dan layout website.
+            </p>
+        </article>
+
+        <article class="rounded-2xl bg-white p-6 shadow">
+            <h2 class="text-2xl font-bold">JavaScript</h2>
+            <p class="mt-3 text-slate-600">
+                Digunakan untuk memberikan fungsi dan interaksi.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer id="kontak" class="bg-slate-900 py-8 text-center text-white">
+    Praktikum Pemrograman Web
+</footer>
+
+</body>
+</html>
